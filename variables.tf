@@ -1,7 +1,7 @@
 variable "prd_vpc_cidr_block" {
   description = "The CIDR block for the production VPC"
   type        = string
-  default     = "10.0.0.0/16"
+  default     = "10.100.0.0/16"
   validation {
     condition     = can(regex("^\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}(\\/\\d{1,2})?$", var.prd_vpc_cidr_block))
     error_message = "Invalid CIDR block format. Please provide a valid IP address or CIDR block."
@@ -12,7 +12,7 @@ variable "prd_vpc_cidr_block" {
 variable "prd_vpc_enable_dns_hostnames" {
   description = "Enable DNS hostnames for the production VPC"
   type        = bool
-  default     = true
+  default     = false
 }
 
 variable "dev_cidr_block" {
