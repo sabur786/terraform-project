@@ -1,3 +1,6 @@
+
+# terraform-project
+AWS and Terraform deployment
 # My Terraform Project
 
 This Terraform project is designed to manage infrastructure using Terraform modules. It includes an example module that demonstrates how to structure and use Terraform modules effectively.
@@ -16,7 +19,10 @@ This Terraform project is designed to manage infrastructure using Terraform modu
 - `outputs.tf`: Output values for the main Terraform project.
 - `provider.tf`: Provider configuration for the Terraform project.
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f7085f672e16a530c2554fbec329d608206efa5a
 ## Usage
 
 1. **Initialize the project**: Run `terraform init` to initialize the Terraform project and download necessary providers.
