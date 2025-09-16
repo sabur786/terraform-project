@@ -1,5 +1,5 @@
 
-## terraform-project
+## Terraform-Project
 
 AWS and Terraform deployment
 
