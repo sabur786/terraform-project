@@ -6,6 +6,7 @@ terraform {
       version = "~> 6.13.0"
     }
   }
+  required_version = ">= 1.5.0"
 }
 
 variable "prd_enable_dns_hostnames" {
